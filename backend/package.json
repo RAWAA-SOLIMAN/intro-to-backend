@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "this project is for the tutorial of intro to backend",
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/RAWAA-SOLIMAN/intro-to-backend.git)"
+  },
+  "license": "ISC",
+  "author": "RAWAA",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.0.1",
+    "nodemon": "^3.1.11"
+  }
+}
